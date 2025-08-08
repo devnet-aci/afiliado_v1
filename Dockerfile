@@ -13,7 +13,7 @@ RUN npm install
 COPY . .
 
 # Expõe a porta usada pela sua app (ajuste se necessário)
-EXPOSE 3001
+EXPOSE 3002
 
 # Comando padrão
 CMD ["npm", "run", "dev"]
